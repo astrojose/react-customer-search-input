@@ -1,4 +1,19 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.suggestions-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.suggestions {
+  position: absolute;
+  top: 38px;
+  min-width: 160px;
+  display: block;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.client-details {
+  margin: 4px;
+  padding: 8px;
+  border-left: 2px #777 solid;
 }
